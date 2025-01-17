@@ -1,80 +1,95 @@
 #logo {
-    color: lightpink;
-    font-size: 500px;
-    font-family: "Playwrite IN", serif;
-    font-style: normal;
-  }
-  h1 {
-    font-family: "Bebas Neue", serif;
-    font-weight: 2000;
-    font-size: 70px;
-    font-style: normal;
-    color: lightpink;
-    text-align: center;
-  }
-  /* HEADER */
-  #logo {
-    font-weight: 300;
-    font-size: 1.5rem;
-    padding: 0px;
-    text-align: center;
-  }
-  ul {
-    list-style: none;
-    padding-left: 0px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 40%;
-    margin-right: 40%;
-  }
-  a {
-    color: #fff0db;
-  }
-  /*MAIN*/
-  body {
-    background-color: #a69279;
-  }
-  .main-img {
-    margin-left: 35%;
-    margin-top: 2%;
-    width: 30%;
-  }
-  p {
-    color: #fff0db;
-    text-align: center;
-  }
-  figcaption{
-      color: #fff0db;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  /*CONTACTS*/
-  .contact-form {
-      text-align: left;
-      margin-left: 15%;
-  }
-  h2{
-      text-align: left;
-      margin-left: 15%;
-      color: #fff0db;
-  }	
-  #name {
-      font-size: 20px;
-      color: #00ff00;
-    }
-  #email {
-      font-size: 20px;
-      color: #00ff00;
-  }
-  /*ABOUT ME*/
-  .about-me-images {
-    margin-left: 30%;
-    width: 40%;
-  }
-  /*FOOTER*/
-  footer {
-    margin: 0rem;
-    border-top: 3px solid lightpink;
-  }
-  
+  color: lightpink;
+  font-size: 500px;
+  font-family: "Playwrite IN", serif;
+  font-style: normal;
+}
+h1 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 2000;
+  font-size: 70px;
+  font-style: normal;
+  color: lightpink;
+  text-align: center;
+}
+/* HEADER */
+#logo {
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 0px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+a {
+  color: #a69279;
+}
+/*MAIN*/
+body {
+  background-color: #fff0db;
+}
+.main-img {
+  margin-left: 35%;
+  margin-top: 2%;
+  width: 30%;
+}
+p {
+  color: #a69279;
+  text-align: center;
+}
+figcaption {
+  color: #a69279;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/*CONTACTS*/
+.contact-form {
+  text-align: left;
+  margin-left: 15%;
+}
+h2 {
+  text-align: left;
+  margin-left: 15%;
+  color: #a69279;
+}
+#name {
+  font-size: 20px;
+  color: #a69279;
+}
+#email {
+  font-size: 20px;
+  color: #a69279;
+}
+#message {
+  font-size: 20px;
+}
+.contact-boxes {
+  margin-left: 15%;
+}
+.contact-boxes-message{
+    margin-left: 15%;
+    height: 200px;
+    width: 500px; 
+}
+.message{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+/*ABOUT ME*/
+.about-me-images {
+  margin-left: 30%;
+  width: 40%;
+}
+/*FOOTER*/
+footer {
+  margin-top: 15%;
+  border-top: 3px solid lightpink;
+}
