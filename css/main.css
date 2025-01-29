@@ -21,14 +21,31 @@ h1 {
 }
 ul {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
   display: flex;
-  justify-content: space-between;
-  margin-left: 20%;
-  margin-right: 20%;
 }
+li {
+  margin-left: 4rem;
+}
+
 a {
   color: #a69279;
+}
+
+/*REPONSITORY HEADER*/
+@media screen and (max-width: 590px) {
+  header,
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 30px;
+  }
 }
 /*MAIN*/
 body {
@@ -73,20 +90,50 @@ h2 {
 .contact-boxes {
   margin-left: 15%;
 }
-.contact-boxes-message{
-    margin-left: 15%;
-    height: 200px;
-    width: 500px; 
+.contact-boxes-message {
+  margin-left: 15%;
+  height: 200px;
+  width: 500px;
 }
-.message{
-    text-align: left;
-    margin-left: 15%;
-    margin-top: 5%;
+.message {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 /*ABOUT ME*/
 .about-me-images {
   margin-left: 30%;
   width: 40%;
+}
+
+/*MY PROJECTS*/
+.project-image {
+  width: 100%;
+}
+
+/*RESPONSIVE IMAGES PROJECTS*/
+
+@media screen and (min-width: 590px) {
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lostcherry-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lostcherry-describtion {
+    font-size: 12px;
+  }
+}
+
+/*TOM FORD PROJECT PAGE*/
+.tom-ford-project-images {
+  width: 100%;
+}
+.lostcherry-describtion {
+  text-align: center;
+  font-size: 20px;
 }
 /*FOOTER*/
 footer {
