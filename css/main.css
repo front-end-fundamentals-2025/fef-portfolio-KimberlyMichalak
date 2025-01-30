@@ -140,3 +140,32 @@ footer {
   margin-top: 15%;
   border-top: 3px solid lightpink;
 }
+
+/*ANIMATION*/
+/*cursor*/
+.cursor{
+  position: relative;
+  width: 24rem;
+  margin: 0 auto;
+  border-right: 2px solid;
+  color: #a69279;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform:translateY(-50%);
+}
+
+.cursor-typewriter-animation {
+  animation: typewriter 5s steps (50) 1s 1 normal both,
+  blinkingCursor 500ms
+  steps (100) infinite normal;
+}
+@keyframes typewriter {
+  from {width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkingCursor{
+  from{border-right-color: #a69279;}
+  to {border-right-cplor:transparent;}
+}
+ 
