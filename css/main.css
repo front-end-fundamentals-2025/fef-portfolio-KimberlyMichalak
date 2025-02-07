@@ -142,30 +142,51 @@ footer {
 }
 
 /*ANIMATION*/
-/*cursor*/
-.cursor{
-  position: relative;
-  width: 24rem;
-  margin: 0 auto;
-  border-right: 2px solid;
-  color: #a69279;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform:translateY(-50%);
+.heading-animation {
+  animation-name: scale, colorchange;
+  animation-duration: 2s;
+}
+@keyframes scale {
+  25% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.cursor-typewriter-animation {
-  animation: typewriter 5s steps (50) 1s 1 normal both,
-  blinkingCursor 500ms
-  steps (100) infinite normal;
+@keyframes colorchange {
+  25% {
+    color: #ff10f0;
+  }
+  50% {
+    color: lightpink;
+  }
+  80% {
+    color: #ff10f0;
+  }
+  100% {
+    color: lightpink;
+  }
 }
-@keyframes typewriter {
-  from {width: 0;}
-  to{width: 100%;}
+
+
+.describtion-animation{
+  opacity: 1;
+  transform: translateY(0);
+  animation-name: fade-in;
+  animation-duration: 2s;
 }
-@keyframes blinkingCursor{
-  from{border-right-color: #a69279;}
-  to {border-right-cplor:transparent;}
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  } 
 }
  
