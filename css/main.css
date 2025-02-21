@@ -51,6 +51,9 @@ a {
 body {
   background-color: #fff0db;
 }
+button{
+  color: #a69279;
+}
 .main-img {
   margin-left: 35%;
   margin-top: 2%;
@@ -76,6 +79,12 @@ h2 {
   margin-left: 15%;
   color: #a69279;
 }
+h3 {
+  text-align: left;
+  margin-left: 15%;
+  color: #a69279;
+  font-size: 100%;
+}
 #name {
   font-size: 20px;
   color: #a69279;
@@ -99,6 +108,10 @@ h2 {
   text-align: left;
   margin-left: 15%;
   margin-top: 5%;
+}
+#send-message-button{
+  margin-left: 15%;
+  margin-top: 3rem;
 }
 /*ABOUT ME*/
 .about-me-images {
